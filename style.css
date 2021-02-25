@@ -1,49 +1,53 @@
 body {
-    background-color: #EDC7B7;
-    height: 400px;
-    overflow: hidden;
+  background-color: #edc7b7;
+  height: 400px;
+  overflow: hidden;
 }
 
 .circle__left {
-    background: #EEE2DC;
-    width: 1800px;
-    height: 750px;
-    border-radius: 750px / 375px;
-    margin: -375px;
-    transform: rotate(-31.7deg);
+  background: #eee2dc;
+  width: 1800px;
+  height: 750px;
+  border-radius: 750px / 375px;
+  margin: -375px;
+  transform: rotate(-31.7deg);
 }
 
 .circle__right {
-    background: #EEE2DC;
-    position: absolute;    
-    bottom: 0px;
-    right: 0px;
-    width: 1800px;
-    height: 750px;
-    border-radius: 750px / 375px;
-    margin: -375px;
-    transform: rotate(-31.7deg);
+  background: #eee2dc;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 1800px;
+  height: 750px;
+  border-radius: 750px / 375px;
+  margin: -375px;
+  transform: rotate(-31.7deg);
 }
 
 p {
-    border-style: solid;
+  /* border-style: solid; */
 }
 
 .middle__container {
-    position: fixed;
-    background-color: white;
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-    border: none;
-    width: 30%;
-    height: 60%;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+  position: fixed;
+  background-image: url("./images/ComputerBackground.png");
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 25%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .middle__card {
-    border: 5px solid red;
-    width: auto;
+  position: bottom;  
+  background-color: white;
+  width: auto;
+  margin-top: auto;
+  height: 60%;
+  object-fit: contain;
 }
