@@ -69,6 +69,31 @@ p {
   letter-spacing: 0.09em;
 }
 
+.profile__pic__wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__pic__container {
+  height: 150px;
+  width: 150px;
+  border: solid 5px;
+  border-color: #ac3b61;
+  border-width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(./images/AKA-Headshot-Alpha.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 160px;
+  overflow: hidden;
+  z-index: 2;
+}
+
 .middle__container {
   position: fixed;
   background-image: url("./images/ComputerBackground.png");
