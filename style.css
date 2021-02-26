@@ -25,6 +25,27 @@ body {
   transform: rotate(-31.7deg);
 }
 
+.profile__title {
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile__heading {
+  font-size: 1.5em;
+}
+
+#name {
+  letter-spacing: normal;
+}
+
+strong {
+  margin-right: 10px;
+}
+
 .main__stats {
   position: absolute;
   bottom: 45px;
